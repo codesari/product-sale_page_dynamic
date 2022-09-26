@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.container .forms {
+  display: flex;
+  flex-direction: column;
+}
+.container .forms h3,
+.container .forms label {
+  padding: 0.3rem;
+  margin: 0.1rem;
+}
+.container .forms .input {
+  padding: 8px 10px 8px 30px;
+  border-radius: 15px;
+}
+.container .country-pcode {
+  display: flex;
+  gap: 0.5rem;
+}
+.container .country-pcode .country, .container .country-pcode .postcode {
+  display: flex;
+  flex-direction: column;
+}
+.container .country-pcode .country select, .container .country-pcode .postcode select {
+  padding: 0.4rem;
+  border-radius: 10px;
+}
+.container .left-container {
+  width: 40%;
+  padding: 1rem;
+}
+.container .left-container .button {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .left-container .button button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  background-color: #f2994a;
+}
+.container .right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #eeeeee;
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+}
+.container .right-container .section {
+  display: flex;
+  gap: 1rem;
+}
+.container .right-container .section img {
+  border-radius: 10px;
+  height: 120px;
+}
+.container .right-container .section .text-button {
+  display: block;
+}
+.container .right-container .section .text-button p {
+  margin-top: 0.1rem;
+}
+.container .right-container .section .text-button .buttons {
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.1rem;
+  width: 6rem;
+  margin-top: 2.5rem;
+}
+.container .right-container .section .text-button .buttons button {
+  padding: 0.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  color: black;
+  font-weight: 300;
+  font-size: large;
+}
+.container .right-container .section .text-button .buttons span {
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+.container .right-container .shipping, .container .right-container .total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+.container #reminder {
+  margin: 0.5rem;
+}
+.container #colored {
+  color: #f0a454;
+}
+.container #deleted {
+  text-decoration: line-through;
+  font-size: small;
+}
+.container i {
+  position: relative;
+  top: -26px;
+  left: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
