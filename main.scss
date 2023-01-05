@@ -16,6 +16,11 @@ h3 {
   color: black;
 }
 
+#icons {
+  width: 5%;
+  // * icon,tüm satırda input girilmesini engelliyordu.bu yüzden width'ini düşürdüm
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -45,9 +50,13 @@ h3 {
     .country {
       display: flex;
       flex-direction: column;
+      width: 100%;
+
       select {
         padding: 0.4rem;
         border-radius: 10px;
+        text-indent: 1.2rem;
+        //! text-indent'i 2 saat araştırma sonucunda buldum.basit de olsa küçük bir deneyimdi
       }
     }
     .postcode {
@@ -148,5 +157,14 @@ h3 {
     position: relative;
     top: -26px;
     left: 8px;
+  }
+}
+
+#btn-style {
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.97);
   }
 }

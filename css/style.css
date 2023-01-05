@@ -17,6 +17,10 @@ h3 {
   color: black;
 }
 
+#icons {
+  width: 5%;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -43,10 +47,12 @@ h3 {
 .container .country-pcode .country, .container .country-pcode .postcode {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .container .country-pcode .country select, .container .country-pcode .postcode select {
   padding: 0.4rem;
   border-radius: 10px;
+  text-indent: 1.2rem;
 }
 .container .left-container {
   width: 40%;
@@ -129,6 +135,13 @@ h3 {
   position: relative;
   top: -26px;
   left: 8px;
+}
+
+#btn-style:hover {
+  cursor: pointer;
+}
+#btn-style:active {
+  transform: scale(0.97);
 }
 
 /*# sourceMappingURL=style.css.map */
